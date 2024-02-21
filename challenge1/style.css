@@ -3,9 +3,25 @@ body {
 }
 
 .container {
+  /* position: absolute; */
   border: 3px solid black;
   margin: 35vh;
   width: 875px;
+}
+.tag {
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  max-width: fit-content;
+  max-height: fit-content;
+  top: 291px;
+  left: 302px;
+  right: 0;
+  bottom: 0;
+  z-index: 1; /* Higher than the underlying div */
+  color: #f7f7f7;
+  font-size: 12px;
+  background-color: #ec2f2f; /* Semi-transparent background */
 }
 
 h1 {
@@ -16,6 +32,16 @@ h1 {
   padding-block: 10px;
   margin: 0;
 }
+
+h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
 .product {
   padding-right: 55px;
   width: 240px;
@@ -29,8 +55,17 @@ h1 {
 }
 
 .add-to-cart {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 1px;
   background-color: black;
-  justify-content: center;
+  text-align: center;
+  border: 2px solid black;
+}
+.add-to-cart:hover {
+  color: #000000;
+  background-color: #ffffff;
 }
 
 li {
