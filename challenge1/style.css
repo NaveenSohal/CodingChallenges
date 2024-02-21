@@ -9,9 +9,17 @@ h1 {
   font-size: 22px;
   font-weight: 700;
   background-color: #f7f7f7;
+  padding-block: 10px;
   margin: 0;
 }
-
+.product {
+  padding-right: 10px;
+}
 .content {
-  display: block;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  max-width: 28vh;
 }
