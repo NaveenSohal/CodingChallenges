@@ -1,10 +1,14 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
-  border: 1px solid black;
+  border: 3px solid black;
   margin: 35vh;
+  width: 875px;
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
@@ -13,13 +17,23 @@ h1 {
   margin: 0;
 }
 .product {
-  padding-right: 10px;
+  padding-right: 55px;
+  width: 240px;
 }
 .content {
-  display: flex;
-  justify-content: space-between;
+  display: inline-flex;
 }
 
 .image {
   max-width: 28vh;
+}
+
+.add-to-cart {
+  background-color: black;
+  justify-content: center;
+}
+
+li {
+  font-size: 16px;
+  font-weight: 400;
 }
