@@ -1,20 +1,22 @@
 body {
   background: linear-gradient(to bottom, #a8edea 0%, #fed6e3 100%);
-  background-position: 0 0;
+  /* background-position: 50% 50%; */
   animation: animateBackground 1.5s ease-in-out infinite;
+  background-size: cover;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 10vh;
   justify-content: center;
   gap: 20px;
+  /* min-height: 100vh; */
 }
 
 .box {
   width: 150px;
   height: 50px;
+  margin: 1vh;
   text-align: center;
   border-radius: 50px;
   background: #a8edea;
