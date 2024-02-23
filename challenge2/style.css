@@ -12,6 +12,7 @@ body {
 }
 
 .container {
+  position: relative;
   display: flex;
   transform: translate(50%, 50%);
   justify-content: center;
@@ -21,6 +22,29 @@ body {
   height: 300px;
   border-radius: 75px;
   box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
+}
+
+.save {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  background-color: #ffffff;
+
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.save img {
+  width: 20px;
+  fill: #d4d8da;
+  margin: 5px;
+  fill-opacity: 10%;
+}
+
+.save:hover {
+  rotate: 30deg;
+  transition: ease-in-out 400ms;
 }
 
 .gradient {
