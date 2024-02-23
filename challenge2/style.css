@@ -15,8 +15,8 @@ body {
   justify-content: center;
   flex-direction: column;
   background-color: red;
-  width: 50vw;
-  height: 50vh;
+  width: 300px;
+  height: 300px;
   border-radius: 75px;
   box-shadow: 15px 15px 30px #bebebe, -15px -15px 30px #ffffff;
 }
@@ -30,15 +30,40 @@ body {
     rgba(145, 152, 229, 1) 100%
   );
   flex: 1;
-  border-radius: 75px 75px 0px 0px;
+  border-radius: 35px 35px 0px 0px;
   max-height: 50%;
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   flex: 1;
-  border-radius: 0px 0px 75px 75px;
+  border-radius: 0px 0px 35px 35px;
+  max-height: 50%;
+  max-height: 50%;
+}
 
-  max-height: 50%;
-  max-height: 50%;
+.heading {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000000;
+  padding: 27px 0px 0px 30px;
+}
+
+.heading h2 {
+  color: #999999;
+  font-size: 13px;
+}
+.activity {
+  flex: 1;
+  background-color: #e3fff9;
+  color: #999999;
+  font-size: 13px;
+  border-radius: 20px;
+  margin: 20px 80px 20px 30px;
+}
+.activity img {
+  max-width: 50px;
 }
