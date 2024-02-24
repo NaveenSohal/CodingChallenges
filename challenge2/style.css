@@ -7,6 +7,9 @@ body {
   display: flex;
   justify-content: center;
   background-color: #e8e8e8;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
@@ -14,7 +17,6 @@ body {
 .container {
   position: relative;
   display: flex;
-  transform: translate(50%, 50%);
   justify-content: center;
   flex-direction: column;
   background-color: red;
