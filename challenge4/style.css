@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e8e8e8;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Inter", sans-serif;
+}
+
+.sidemenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 40vh;
+  align-items: flex-start;
+  background-color: #24252a;
+  box-shadow: 0px 9.384614944458008px 93.84614562988281px 0px #00000026;
+  padding: 30px, 22px, 30px, 22px;
+}
+
+.brandnav {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  width: 20vw;
+  height: 95vh;
+  margin: 10px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.navlist {
+  display: flex;
+  justify-content: space-between;
+}
+
+.account {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.theme {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+}
+.logout {
+  display: flex;
+  justify-content: space-between;
+  background-color: blanchedalmond;
+}
