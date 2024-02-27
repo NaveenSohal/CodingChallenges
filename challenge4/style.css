@@ -1,14 +1,11 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   background-color: #e8e8e8;
-  align-items: flex-start;
   width: 100vw;
   height: 100vh;
   font-family: "Inter", sans-serif;
@@ -19,8 +16,9 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height: max-content;
   width: 50vh;
+  gap: 45px;
   align-items: flex-start;
   background-color: #24252a;
   box-shadow: 0px 9.384614944458008px 93.84614562988281px 0px #00000026;
@@ -31,8 +29,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(240, 248, 255, 0.307);
-  width: 20vw;
+
+  width: 100%;
   margin: 10px;
 }
 
@@ -64,47 +62,81 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: flex-start;
-  text-align: center;
   color: #eff2f4;
   gap: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
   padding: 5px;
-  font-style: normal;
   text-transform: capitalize;
-  line-height: 22px;
+  box-sizing: ;
 }
 
 .navlist div {
   display: flex;
   gap: 10px;
+  max-width: 260px;
   align-items: center;
+  padding: 0px 7.51px 0px 7.51px;
+  border-radius: 10px;
+  width: 100%;
 }
 
 .navlist img {
-  width: 31px;
+  /* width: 31px; */
+}
+
+.navlist div:hover {
+  background-color: #0088a8a1;
+  transition: ease-in-out linear 300ms;
 }
 
 .account {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-direction: column;
   align-items: flex-start;
+  max-width: 260px;
+  color: #eff2f4;
   gap: 15px;
-  background-color: black;
-  margin: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 5px;
+  text-transform: capitalize;
+  margin: 5px;
 }
 
 .theme {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   padding: 5px;
-  background-color: rgba(255, 240, 241, 0.307);
 }
+
+.theme-switch {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.switch-on {
+}
+
+.switch-off {
+}
+
 .logout {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   padding: 5px;
-  background-color: rgba(255, 240, 241, 0.307);
+  min-width: 183px;
+  gap: 10px;
+  padding: 7.5px 7.5px 7.5px 15px;
+  left: 1.6px;
+  background-color: #0088a8;
+  border-radius: 14px;
 }
