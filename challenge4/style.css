@@ -29,7 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  gap: 45px;
   width: 100%;
   margin: 10px;
 }
@@ -82,13 +82,19 @@ body {
   width: 100%;
 }
 
-.navlist img {
-  /* width: 31px; */
-}
-
 .navlist div:hover {
   background-color: #0088a8a1;
   transition: ease-in-out linear 300ms;
+}
+
+.navlist div button {
+  background-color: #0088a8;
+  width: 22.52px;
+  height: 22.52px;
+  border: none;
+  color: #eff2f4;
+  gap: 15px;
+  border-radius: 3.75px;
 }
 
 .account {
@@ -136,7 +142,6 @@ body {
   min-width: 183px;
   gap: 10px;
   padding: 7.5px 7.5px 7.5px 15px;
-  left: 1.6px;
   background-color: #0088a8;
   border-radius: 14px;
 }
