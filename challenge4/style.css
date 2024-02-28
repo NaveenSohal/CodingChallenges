@@ -79,6 +79,7 @@ body {
   background-color: #0088a8a1;
   border-radius: 14px;
   transition: ease-in-out linear 300ms;
+  cursor: pointer;
 }
 .navlist div button {
   background-color: #0088a8;
