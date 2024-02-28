@@ -16,7 +16,7 @@ body {
   align-items: center;
   flex-direction: column;
   height: 100vh;
-  width: 26vh;
+  width: 24vh;
   gap: 45px;
   align-items: flex-start;
   background-color: #24252a;
@@ -30,6 +30,7 @@ body {
   justify-content: center;
   gap: 45px;
   margin: 10px;
+  width: 100%;
 }
 
 .brand {
@@ -59,39 +60,34 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
   color: #eff2f4;
   gap: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
-  /* padding: 5px; */
   text-transform: capitalize;
-  box-sizing: ;
 }
 
 .navlist div {
   display: flex;
   gap: 10px;
-  align-items: center;
   padding: 7.51px;
-  border-radius: 14px;
-  width: 100%;
+  align-items: center;
 }
 
 .navlist div:hover {
   background-color: #0088a8a1;
+  border-radius: 14px;
   transition: ease-in-out linear 300ms;
 }
-
 .navlist div button {
   background-color: #0088a8;
   width: 22.52px;
   height: 22.52px;
   border: none;
   color: #eff2f4;
-  gap: 15px;
   border-radius: 3.75px;
+  margin-left: 15px;
 }
 
 .account {
@@ -100,7 +96,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   color: #eff2f4;
-  gap: 15px;
+  gap: 22.52px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 15px;
