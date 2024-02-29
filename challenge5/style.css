@@ -66,22 +66,56 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  gap: 30px;
   width: 100%;
-  height: 70px;
   border-radius: 4px;
+  text-transform: capitalize;
 }
 
 .search-for {
-  flex: 3;
+  font-size: 18px;
+  font-weight: 500;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  flex: 12;
+  background-color: #ffffff;
 }
+
+.search-input {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+  text-transform: capitalize;
+  border-right: 1px;
+  border-color: #edeff1;
+  gap: 10px;
+}
+
 .location {
-  flex: 3;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px 0px 30px;
+  text-transform: capitalize;
 }
 
 .search-button {
+  height: 70px;
   flex: 1;
   background-color: #ff545a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 22px 0px 22px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  border-radius: 4px;
+  gap: 12px;
 }
 
 .tags {
