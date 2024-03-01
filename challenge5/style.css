@@ -97,19 +97,6 @@ body {
   gap: 10px;
 }
 
-.search-input div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 500;
-  color: #859098;
-}
-
-.search-input div img {
-  justify-content: flex-end;
-}
-
 .location {
   flex: 1;
   display: flex;
@@ -120,10 +107,14 @@ body {
   text-transform: capitalize;
 }
 
-.location div {
+.input {
   font-size: 14px;
   font-weight: 500;
   color: #859098;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 .search-button {
