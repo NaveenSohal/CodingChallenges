@@ -97,13 +97,33 @@ body {
   gap: 10px;
 }
 
+.search-input div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #859098;
+}
+
+.search-input div img {
+  justify-content: flex-end;
+}
+
 .location {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
   padding: 0px 30px 0px 30px;
   text-transform: capitalize;
+}
+
+.location div {
+  font-size: 14px;
+  font-weight: 500;
+  color: #859098;
 }
 
 .search-button {
