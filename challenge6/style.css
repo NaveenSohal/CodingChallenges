@@ -8,7 +8,6 @@ body {
   width: 100vw;
   height: 100vh;
   font-family: "IBM Plex Serif", serif;
-  overflow: hidden;
 }
 
 .content {
@@ -102,4 +101,31 @@ body {
   color: #888888;
   font-size: 12px;
   font-weight: 400;
+}
+
+.content-body {
+  display: flex;
+  gap: 36px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.news-headline {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 500;
+  height: 72px;
+}
+
+.news-img img {
+  width: 100%;
+}
+
+.sidebar {
+  background-color: #564268;
+  flex: 2;
 }
