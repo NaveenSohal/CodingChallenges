@@ -58,3 +58,48 @@ body {
   font-weight: 400;
   text-transform: uppercase;
 }
+
+.articles {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.articles div {
+  display: flex;
+  justify-content: center;
+}
+
+.articles div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.article-img {
+  max-width: 80px;
+}
+
+.article-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 6px;
+  padding-left: 16px;
+}
+
+.article-heading {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.aricle-performance {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  color: #888888;
+  font-size: 12px;
+  font-weight: 400;
+}
