@@ -305,4 +305,6 @@ body {
   rotate: -45deg;
 }
 .copyright {
+  font-size: 16px;
+  font-weight: 400;
 }
