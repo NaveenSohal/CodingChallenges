@@ -111,6 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 3;
+  gap: 16px;
   padding-right: 36px;
   border-right: solid 1px #eeeeee;
 }
@@ -119,21 +120,65 @@ body {
   color: #000000;
   font-size: 30px;
   font-weight: 500;
-  height: 72px;
-  padding-right: 80px;
 }
 
 .news-img img {
   width: 100%;
 }
 
+.news-author {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  padding: 10px 150px 0px 0px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  padding: 0px 12px 0px 12px;
+}
+
+.author-img {
+  display: flex;
+}
+
+.author-name {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  width: max-content;
+}
+
+.published-date {
+  color: #888888;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.divider {
+  width: 1px;
+  background-color: #eeeeee;
+  padding: 10px 0px 10px 0px;
+}
+
+.author-bio {
+  color: #888888;
+  display: flex;
+  flex-direction: column;
+}
+
 .sidebar {
   display: flex;
   flex-direction: column;
-  background-color: #564268;
-  flex: 2;
+  background-color: #ffffff;
+  flex: 1;
   padding-left: 36px;
 }
+
 .section-header {
   display: flex;
   justify-content: flex-start;
@@ -160,7 +205,7 @@ body {
 }
 
 .line {
-  flex: 2;
+  flex: 1;
   background-color: #000000;
   height: 1px;
 }
@@ -176,6 +221,10 @@ body {
   align-items: center;
   gap: 22px;
   border: 1px #eeeeee;
+}
+
+.article-body img {
+  justify-content: flex-end;
 }
 
 .number {
@@ -194,6 +243,7 @@ body {
 
 .headline {
   display: flex;
+  font-family: "IBM Plex Serif", serif;
   font-size: 16px;
   font-weight: 500;
 }
