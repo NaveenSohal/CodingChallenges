@@ -157,6 +157,8 @@ body {
   color: #888888;
   font-size: 12px;
   font-weight: 400;
+  text-transform: capitalize;
+  width: max-content;
 }
 
 .divider {
@@ -260,4 +262,47 @@ body {
 .article-thumb {
   display: flex;
   justify-content: flex-end;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: solid black;
+  border-width: 3px 0px 0px 0px;
+}
+
+.footer-heading {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-family: "Playfair Display", serif;
+  padding-top: 30px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.social-apps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0px 30px 0px;
+}
+.social-apps div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  rotate: 45deg;
+  border: solid black;
+  border-width: 1px;
+}
+.social-apps div img {
+  rotate: -45deg;
+}
+.copyright {
 }
