@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+
+  height: 100vh;
+  font-family: "IBM Plex Serif", serif;
+}
+
+.content {
+  display: flex;
+  position: relative;
+}
+
+.top_white_space {
+  flex: 1;
+  background-color: #ffffff;
+  height: 33vh;
+}
+
+.rectanlge_middle {
+  position: absolute;
+  top: 0;
+  left: 33.33vw;
+  right: 0;
+  bottom: 0;
+  background-color: #f5683d;
+  height: 1031px;
+  width: 35vw;
+  z-index: 1;
+}
+
+.image {
+  position: absolute;
+  top: 90px;
+  left: 20vw;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  max-width: 80vw;
+}
+
+.description {
+  display: flex;
+  position: absolute;
+  top: 494px;
+  left: 5vw;
+  right: 50vw;
+  bottom: 0;
+  z-index: 3;
+  background-color: #ffffff;
+  padding: 30px 45px 30px 45px;
+}
