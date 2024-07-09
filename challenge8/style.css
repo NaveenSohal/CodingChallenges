@@ -16,6 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   padding-top: 60px;
+  width: 100vw;
   gap: 36px;
 }
 
@@ -24,7 +25,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  max-width: 1140px;
+  width: 1140px;
 }
 
 .description {
@@ -87,7 +88,7 @@ body {
   align-items: center;
   height: 572px;
   gap: 10px;
-  max-width: 1140px;
+  width: 1140px;
 }
 
 .quote {
@@ -130,7 +131,7 @@ body {
 }
 
 .about_content {
-  max-width: 570px;
+  width: 570px;
   gap: 16px;
 }
 
@@ -162,12 +163,12 @@ body {
   align-items: center;
   height: 572px;
   gap: 10px;
-  max-width: 1140px;
+  width: 1140px;
 }
 
 .card_3Section1 {
   display: flex;
-  min-width: 570px;
+  width: 570px;
 }
 
 .card_3image_border {
@@ -194,7 +195,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 422px;
-  max-width: 570px;
+  width: 570px;
   padding: 30px;
   gap: 60px;
 }
