@@ -15,7 +15,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px 70px 60px 70px;
+  padding-top: 60px;
   gap: 36px;
 }
 
@@ -225,17 +225,20 @@ body {
 }
 
 .page2 {
+  display: flex;
+  justify-content: center;
   background-color: #e5e5e5;
-  width: 1280px;
+  width: 100vw;
   height: 944px;
 }
 
 .page2_content {
   display: flex;
   flex-direction: column;
+  width: 1140px;
+  height: 824px;
   padding: 60px 70px 60px 70px;
   gap: 30px;
-  color: #f1c50e;
 }
 
 .p2_heading {
@@ -309,6 +312,8 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #e5e5e5;
+  justify-content: center;
+  width: 100vw;
 }
 
 .statframe {
@@ -354,7 +359,7 @@ body {
 .page5 {
   display: flex;
   flex-direction: column;
-  height: 625px;
+  /* height: 625px; */
   width: 1140px;
   gap: 21px;
 }
@@ -441,4 +446,160 @@ body {
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
+}
+
+.page6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 693px;
+  gap: 10px;
+  width: 1140px;
+}
+
+.page7 {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 692px;
+  padding: 60px 0 60px 0;
+  background-color: #f2f2f2;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: row;
+  width: 1140px;
+  height: 572px;
+}
+
+.contact_inputs {
+  display: flex;
+  flex-direction: column;
+  height: 572px;
+  width: 570px;
+  background-color: #ffffff;
+  border-top-right-radius: 50px;
+  padding: 30px;
+  gap: 30px;
+}
+
+.contact_form_heading {
+  height: 59px;
+  width: 510px;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+}
+
+.calling {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 572px;
+  width: 570px;
+  padding: 30px;
+  gap: 10px;
+}
+
+.contact_icon {
+  height: 116px;
+  width: 116px;
+  border-radius: 100px;
+  gap: 10px;
+  background-color: #20d97f;
+}
+
+.contact_icon img {
+  height: 50px;
+  width: 50px;
+  padding: 33px;
+}
+
+.calling_number1 {
+  height: 75px;
+  width: 348px;
+  padding-top: 10px;
+  gap: 10px;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.calling_number2 {
+  height: 75px;
+  width: 348px;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.input_form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 510px;
+}
+
+.input_field {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 510px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+.input_field input {
+  display: flex;
+  width: 247.5px;
+  height: 42px;
+
+  gap: 10px;
+  color: #818181;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.input_field input::placeholder {
+  padding: 10px 12px 10px 12px;
+}
+
+.input_phone input {
+  width: 510px;
+}
+
+.input_message input {
+  width: 510px;
+  height: 122.5px;
+}
+
+.input_terms div {
+  display: flex;
+  flex-direction: row;
+  width: 232px;
+}
+
+.input_terms input {
+  display: flex;
+  flex-direction: column;
+  width: 13px;
+  height: 22px;
+}
+
+.form_submit {
+  display: flex;
+  padding: 10px 30px 10px 30px;
+  gap: 10px;
+  background-color: #f1c50e;
+  color: #111111;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  justify-content: center;
 }
