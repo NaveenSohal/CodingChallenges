@@ -34,7 +34,7 @@ body {
 .menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   width: 100vw;
 }
 
@@ -47,15 +47,37 @@ body {
   padding: 10px;
 }
 
+.box {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.box a {
+  color: #fffdfa;
+  text-decoration: none;
+}
+
+.box:hover {
+  background-color: #00515d;
+}
+
 .preview {
   display: flex; /* To center the image if needed */
   justify-content: center;
   align-items: center;
   padding: 20px; /* Add some padding around the preview area */
-  height: 100px; /* Set a fixed height for the preview area */
-  width: 200px; /* Set a fixed width for the preview area */
-  margin-top: 10px; /* Add some space between items and preview */
-  border: 1px solid #ccc; /* Optional border for visibility */
+  height: 50vh; /* Set a fixed height for the preview area */
+  width: 50vw; /* Set a fixed width for the preview area */
+  margin-top: 10px;
+  border-radius: 50px;
+  background: rgb(0, 0, 0);
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 #preview-image {
