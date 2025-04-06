@@ -68,8 +68,8 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px; /* Add some padding around the preview area */
-  height: 50vh; /* Set a fixed height for the preview area */
-  width: 50vw; /* Set a fixed width for the preview area */
+  height: 360px; /* Set a fixed height for the preview area */
+  width: 640px; /* Set a fixed width for the preview area */
   margin-top: 10px;
   border-radius: 50px;
   background: rgb(0, 0, 0);
