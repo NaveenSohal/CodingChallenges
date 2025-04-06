@@ -18,41 +18,48 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .header {
   display: flex;
   justify-content: center;
-  background: linear-gradient(
-    180deg,
-    rgb(0, 0, 0) 10%,
-    rgba(1, 212, 34, 0) 100%
-  );
+  background: #00515d;
   color: #fffdfa;
   font-size: 3rem;
-  font-family: "Arizonia", cursive;
   font-weight: 700;
   padding: 5px;
   width: 100vw;
 }
 
-.menu .box {
+.menu {
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 100vw;
-  height: 150px;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.preview {
+  display: flex; /* To center the image if needed */
   justify-content: center;
   align-items: center;
-  border-radius: 4px;
-  border: 1px solid;
+  padding: 20px; /* Add some padding around the preview area */
+  height: 100px; /* Set a fixed height for the preview area */
+  width: 200px; /* Set a fixed width for the preview area */
+  margin-top: 10px; /* Add some space between items and preview */
+  border: 1px solid #ccc; /* Optional border for visibility */
 }
 
-.box :link {
+#preview-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
-.box :visited {
-}
-
-.box :hover {
-}
-
-.preview;

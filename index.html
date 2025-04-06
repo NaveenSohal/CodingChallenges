@@ -5,45 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coding challenges</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="header">Naveen's web dev practice</div>
       <div class="menu">
-      <div class="box">
-        <a href="/challenge1/challenge1.html">Challenge 1</a>
+        <div class="items">
+          <div
+            class="box box1"
+            data-preview-image="/images/challenge1.html.png"
+          >
+            <a href="/challenge1/challenge1.html">Challenge 1</a>
+          </div>
+          <div
+            class="box box2"
+            data-preview-image="/images/challenge2.html.png"
+          >
+            <a href="/challenge2/challenge2.html">Challenge 2</a>
+          </div>
+          <div
+            class="box box3"
+            data-preview-image="/images/challenge3.html.png"
+          >
+            <a href="/challenge3/challenge3.html">Challenge 3</a>
+          </div>
+          <div
+            class="box box4"
+            data-preview-image="/images/challenge4.html.png"
+          >
+            <a href="/challenge4/challenge4.html">Challenge 4</a>
+          </div>
+          <div
+            class="box box5"
+            data-preview-image="/images/challenge5.html.png"
+          >
+            <a href="/challenge5/challenge5.html">Challenge 5</a>
+          </div>
+          <div
+            class="box box6"
+            data-preview-image="/images/challenge6.html.png"
+          >
+            <a href="/challenge6/challenge6.html">Challenge 6</a>
+          </div>
+          <div
+            class="box box7"
+            data-preview-image="/images/challenge7.html.png"
+          >
+            <a href="/challenge7/challenge7.html">Challenge 7</a>
+          </div>
+          <div
+            class="box box8"
+            data-preview-image="/images/challenge8.html.png"
+          >
+            <a href="/challenge8/challenge8.html">Challenge 8</a>
+          </div>
+        </div>
+        <div class="preview">
+          <img id="preview-image" src="" alt="Preview Image" />
+        </div>
       </div>
-      <div class="box">
-        <a href="/challenge2/challenge2.html">Challenge 2</a>
-      </div>
-      <div class="box">
-        <a href="/challenge3/challenge3.html">Challenge 3</a>
-      </div>
-      <div class="box">
-        <a href="/challenge4/challenge4.html">Challenge 4</a>
-      </div>
-      <div class="box">
-        <a href="/challenge5/challenge5.html">Challenge 5</a>
-      </div>
-      <div class="box">
-        <a href="/challenge6/challenge6.html">Challenge 6</a>
-      </div>
-      <div class="box">
-        <a href="/challenge7/challenge7.html">Challenge 7</a>
-      </div>
-      <div class="box">
-        <a href="/challenge8/challenge8.html">Challenge 8</a>
-      </div>
-      <!-- <div class="box">
-        <a href="/challenge9/challenge9.html">Challenge 9</a>
-      </div>
-      <div class="box">
-        <a href="/challenge10/challenge10.html">Challenge10</a>
-      </div> -->
     </div>
-    <div class="preview"></div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const boxes = document.querySelectorAll(".box");
+        const previewImage = document.getElementById("preview-image");
+
+        boxes.forEach((box) => {
+          box.addEventListener("mouseover", function () {
+            const imageSrc = this.dataset.previewImage;
+            previewImage.src = imageSrc;
+          });
+
+          box.addEventListener("mouseout", function () {
+            previewImage.src = ""; // Clear the preview when the mouse leaves
+          });
+        });
+      });
+    </script>
   </body>
 </html>
