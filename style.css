@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 .container {
@@ -22,6 +23,7 @@ body {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   background: #00515d;
   color: #fffdfa;
@@ -40,14 +42,16 @@ body {
 
 .items {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  align-items: start;
   justify-content: center;
   gap: 20px;
   padding: 10px;
 }
 
 .box {
+  display: flex;
+  flex-wrap: wrap;
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0);
@@ -64,13 +68,11 @@ body {
 }
 
 .preview {
-  display: flex; /* To center the image if needed */
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px; /* Add some padding around the preview area */
-  height: 360px; /* Set a fixed height for the preview area */
-  width: 640px; /* Set a fixed width for the preview area */
-  margin-top: 10px;
+  padding: 20px;
+  margin: 10px 22% 22% 22%;
   border-radius: 50px;
   background: rgb(0, 0, 0);
   background: radial-gradient(
