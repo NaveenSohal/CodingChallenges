@@ -4,7 +4,7 @@
 }
 
 html {
-  font-size: 1vw;
+  font-size: clamp(12px, 1vw, 18px);
 }
 
 .container {
@@ -23,7 +23,7 @@ html {
   padding: 1rem;
   width: 20rem;
   height: 5rem;
-  background-color: none;
+  background-color: transparent;
   border: 0.1rem solid #000;
   border-radius: 1rem;
   text-transform: uppercase;
