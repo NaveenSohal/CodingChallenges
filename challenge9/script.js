@@ -36,3 +36,4 @@ function triangle(a, b, c) {
 
 triangle(5, 6, 7);
 triangle(2, 3, 6);
+
